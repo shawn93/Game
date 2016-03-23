@@ -1,0 +1,99 @@
+StartMenu
+{
+	zorder 200
+
+	container Panel(StartMenu/Panel1)
+	{
+		metrics_mode relative
+		
+		top 0.1
+		left 0.175
+		width 0.45
+		height 0.2
+
+		element TextArea(StartMenu/Panel1/Text1)
+      		{
+        		metrics_mode relative
+      
+        		font_name BlueHighwayBig
+        		char_height 0.080
+        		colour 1 1 1
+        		caption Choose your Difficulty Level
+      		}
+	}
+}
+
+Beginner
+{
+	zorder 200
+
+	container Panel(StartMenu/Panel2)
+	{
+		metrics_mode relative
+		
+		top 0.4
+		left 0.15
+		width 0.45
+		height 0.2
+
+		element TextArea(StartMenu/Panel2/Text2)
+      		{
+        		metrics_mode relative
+      
+        		font_name BlueHighwayBig
+        		char_height 0.063
+        		colour 1 1 1
+        		caption Beginner(B)
+      		}
+	}
+}
+
+Intermediate
+{
+	zorder 200
+
+	container Panel(StartMenu/Panel3)
+	{
+		metrics_mode relative
+		
+		top 0.4
+		left 0.40
+		width 0.45
+		height 0.2
+
+		element TextArea(StartMenu/Panel3/Text3)
+      		{
+        		metrics_mode relative
+      
+        		font_name BlueHighwayBig
+        		char_height 0.063
+        		colour 1 1 1
+        		caption Intermediate(I)
+      		}
+	}
+}
+
+Expert
+{
+	zorder 200
+
+	container Panel(StartMenu/Panel4)
+	{
+		metrics_mode relative
+		
+		top 0.4
+		left 0.70
+		width 0.45
+		height 0.2
+
+		element TextArea(StartMenu/Panel4/Text4)
+      		{
+        		metrics_mode relative
+      
+        		font_name BlueHighwayBig
+        		char_height 0.063
+        		colour 1 1 1
+        		caption Expert(E)
+      		}
+	}
+}

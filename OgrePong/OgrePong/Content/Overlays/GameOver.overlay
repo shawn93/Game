@@ -1,0 +1,49 @@
+Player
+{
+    zorder 200
+  
+    container Panel(Player/Panel1)
+    {
+      metrics_mode relative
+
+      top 0.4
+      left 0.35
+      width 0.45
+      height 0.2
+    
+      element TextArea(Player/Panel1/Gameover)
+      {
+        metrics_mode relative
+      
+        font_name BlueHighwayBig
+        char_height 0.1
+        colour 2 2 2
+        caption You win!
+      }
+    }
+}
+
+AI
+{
+    zorder 200
+  
+    container Panel(AI/Panel2)
+    {
+      metrics_mode relative
+
+      top 0.4
+      left 0.35
+      width 0.45
+      height 0.2
+    
+      element TextArea(AI/Panel2/GameOver)
+      {
+        metrics_mode relative
+      
+        font_name BlueHighwayBig
+        char_height 0.1
+        colour 2 2 2
+        caption You lose...
+      }
+    }
+}

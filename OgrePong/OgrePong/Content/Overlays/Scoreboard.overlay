@@ -1,0 +1,77 @@
+Player1
+{
+    zorder 200
+  
+    container Panel(Scoreboard/Panel1)
+    {
+      metrics_mode relative
+
+      top 0.05
+      left 0.4
+      width 0.45
+      height 0.2
+	  
+	  element TextArea(Scoreboard/Panel1/P1)
+      {
+        metrics_mode relative
+		
+		top 0.005
+		left -0.25
+		width 0.4
+		height 0.1
+        font_name BlueHighwayBig
+        char_height 0.07
+        colour 0 1 1.5
+        caption Player 1
+      }
+	  
+      element TextArea(Scoreboard/Panel1/Score1)
+      {
+        metrics_mode relative
+      
+        font_name BlueHighwayBig
+        char_height 0.1
+        colour 1 1 0
+        caption 0
+      }
+    }
+}
+
+Player2
+{
+    zorder 200
+  
+    container Panel(Scoreboard/Panel2)
+    {
+      metrics_mode relative
+
+      top 0.05
+      left 0.56
+      width 0.45
+      height 0.2
+    
+	  element TextArea(Scoreboard/Panel1/P2)
+      {
+        metrics_mode relative
+		
+		top 0.005
+		left 0.1
+		width 0.4
+		height 0.1
+        font_name BlueHighwayBig
+        char_height 0.07
+        colour 0 1 1.5
+        caption Player 2
+      }
+	
+      element TextArea(Scoreboard/Panel2/Score2)
+      {
+        metrics_mode relative
+      
+        font_name BlueHighwayBig
+        char_height 0.1
+        colour 1 1 0
+        caption 0
+      }
+    }
+}
