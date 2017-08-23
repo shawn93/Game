@@ -1,3 +1,3 @@
 # Game
 C++ games
-PgrePong Game
+OgrePong Game
